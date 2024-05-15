@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Codes - Streamer Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="affiliate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="index.html" class="logo">Your Logo</a>
+                <div class="menu-toggle">☰</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="affiliate.html">Affiliate Codes</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="affiliate" class="affiliate-section">
+            <div class="content">
+                <h1>Affiliate Codes</h1>
+                <p>Use my affiliate codes to support me.</p>
+                <div class="codes">
+                    <a href="#" class="code large" style="background-image: url('affiliate1.jpg');">
+                        <div class="code-content">
+                            <h2>BC.GAME</h2>
+                            <p>Interested in playing on BC.GAME? Support while having fun! Register with code "Your Code"</p>
+                        </div>
+                    </a>
+                    <a href="#" class="code" style="background-image: url('affiliate2.jpg');">
+                        <div class="code-content">
+                            <h2>Stake</h2>
+                            <p>Use code: Your Code</p>
+                        </div>
+                    </a>
+                    <a href="#" class="code" style="background-image: url('affiliate3.jpg');">
+                        <div class="code-content">
+                            <h2>Coming soon</h2>
+                            <p>soon</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Streamer Name. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

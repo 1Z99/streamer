@@ -1,0 +1,105 @@
+/* Hero Section for index.html */
+.hero-section {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: #f5f5f5;
+   background: url('your-gaming-background.jpg') no-repeat center center/cover;
+   min-height: 100vh; /* Ensure it takes full viewport height */
+}
+
+.hero-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 800px;
+   padding: 0 20px;
+   animation: fadeInUp 2s ease-in-out;
+}
+
+.hero-content h1 {
+   font-size: 4rem;
+   margin-bottom: 1rem;
+   animation: slideInDown 1s ease-in-out;
+}
+
+.hero-content p {
+   font-size: 1.5rem;
+   margin-bottom: 2rem;
+   animation: slideInUp 1s ease-in-out;
+}
+
+.streamer-photo {
+   margin-bottom: 2rem;
+}
+
+.streamer-photo img {
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.cta-button {
+   display: inline-block;
+   padding: 1rem 2rem;
+   font-size: 1.2rem;
+   color: #0b0c10;
+   background: #66fcf1;
+   border: none;
+   border-radius: 5px;
+   text-decoration: none;
+   transition: background 0.3s, transform 0.3s;
+   animation: fadeIn 2s ease-in-out;
+}
+
+.cta-button:hover {
+   background: #45a29e;
+   transform: scale(1.05);
+}
+
+/* Social Links */
+.social-links {
+   display: flex;
+   gap: 1rem;
+   margin-bottom: 1rem;
+}
+
+.social-links a {
+   font-size: 1.8rem;
+   color: #c5c6c7;
+   transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+   color: #66fcf1;
+   transform: scale(1.2);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+   .hero-content h1 {
+       font-size: 2.5rem;
+   }
+
+   .hero-content p {
+       font-size: 1rem;
+   }
+
+   .cta-button {
+       padding: 0.5rem 1rem;
+       font-size: 1rem;
+   }
+
+   .social-links a {
+       font-size: 1.5rem;
+   }
+
+   .streamer-photo img {
+       width: 100px;
+       height: 100px;
+   }
+}

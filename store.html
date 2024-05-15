@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store - Streamer Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="store.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="index.html" class="logo">Your Logo</a>
+                <div class="menu-toggle">☰</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="affiliate.html">Affiliate Codes</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="store" class="store-section">
+            <div class="content">
+                <h1>Store</h1>
+                <div class="store-items">
+                    <div class="item">
+                        <div class="item-image" style="background-image: url('item1.jpg');" alt="UNBANNED"></div>
+                        <div class="item-content">
+                            <h3>UNBANNED - $5</h3>
+                            <p>Get unbanned from Kick/Discord/Twitch.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-image" style="background-image: url('item2.jpg');" alt="Twitch VIP"></div>
+                        <div class="item-content">
+                            <h3>Twitch VIP - $99</h3>
+                            <p>Become a VIP on my Twitch channel.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-image" style="background-image: url('item3.jpg');" alt="Kick VIP"></div>
+                        <div class="item-content">
+                            <h3>Kick VIP - $99</h3>
+                            <p>Become a VIP on my Kick channel.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-image" style="background-image: url('item4.jpg');" alt="Discord VIP"></div>
+                        <div class="item-content">
+                            <h3>Discord VIP - $99</h3>
+                            <p>Enjoy VIP status on my Discord server.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-image" style="background-image: url('item6.jpg');" alt="Personalized Video"></div>
+                        <div class="item-content">
+                            <h3>Video - $150</h3>
+                            <p>Get a personalized video message from me.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-image" style="background-image: url('item7.jpg');" alt="Merch"></div>
+                        <div class="item-content">
+                            <h3>Merch - $55</h3>
+                            <p>Limited Edition YourName Shirt.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Streamer Name. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

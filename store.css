@@ -1,0 +1,127 @@
+/* Specific styles for store.html */
+.store-section {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: #f5f5f5;
+   padding: 100px 20px;
+   background: url('your-gaming-background.jpg') no-repeat center center/cover;
+   min-height: 100vh;
+   animation: fadeIn 1.5s ease-in-out;
+}
+
+.content {
+   width: 100%;
+   max-width: 1200px;
+   padding: 20px;
+   background: rgba(11, 12, 16, 0.8);
+   border-radius: 10px;
+   
+   animation: fadeInUp 2s ease-in-out;
+}
+
+.content h1 {
+   font-size: 2.5rem; /* Adjusted for better balance */
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   animation: slideInDown 1s ease-in-out;
+}
+
+.content p {
+   font-size: 1.2rem; /* Adjusted for better balance */
+   margin-bottom: 2rem;
+   animation: slideInUp 1s ease-in-out;
+}
+
+.store-items {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 20px;
+   width: 100%;
+}
+
+.item {
+   background: rgba(11, 12, 16, 0.9);
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   transition: transform 0.3s, box-shadow 0.3s;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.item:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.item-image {
+   width: 100%;
+   height: 150px;
+   background-size: cover;
+   background-position: center;
+}
+
+.item-content {
+   padding: 15px;
+   text-align: left;
+}
+
+.item-content h3 {
+   font-size: 1.5rem;
+   margin-bottom: 0.5rem;
+   color: #66fcf1;
+}
+
+.item-content p {
+   font-size: 1rem;
+   margin-bottom: 1rem;
+   color: #c5c6c7;
+}
+
+.item-content button {
+   padding: 0.5rem 1rem;
+   font-size: 1rem;
+   color: #0b0c10;
+   background: #66fcf1;
+   border: none;
+   border-radius: 5px;
+   transition: background 0.3s, transform 0.3s;
+   cursor: pointer;
+}
+
+.item-content button:hover {
+   background: #45a29e;
+   transform: scale(1.05);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+   .store-section {
+       padding: 50px 10px;
+   }
+
+   .content h1 {
+       font-size: 2rem;
+   }
+
+   .content p {
+       font-size: 1rem;
+   }
+
+   .item-content h3 {
+       font-size: 1.2rem;
+   }
+
+   .item-content p {
+       font-size: 0.9rem;
+   }
+
+   .item-content button {
+       font-size: 0.9rem;
+   }
+}

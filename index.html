@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Streamer Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="index.html" class="logo">Your Logo</a>
+                <div class="menu-toggle">☰</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="affiliate.html">Affiliate Codes</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to Logo's World</h1>
+                <p>Partnered Twitch & Kick Streamer.</p>
+                <div class="streamer-photo">
+                    <img src="me.jpg" alt="Streamer Photo">
+                </div>
+                <div class="social-links">
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.twitch.tv" target="_blank"><i class="fab fa-twitch"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="https://kick.com" target="_blank"><i class="fa-brands fa-kickstarter"></i></a>
+                </div>
+                <a href="affiliate.html" class="cta-button">Check Affiliate Codes</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Streamer Name. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
