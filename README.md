@@ -20,6 +20,10 @@ Welcome to the Streamer Affiliate & Store Website! This project is designed for 
 #### index.html
 This is the landing page of the website. It includes an introduction, social media links, and a call-to-action button to check affiliate codes.
 
+![pre](https://github.com/1Z99/streamer/assets/85915502/4821c0ec-a2e6-4640-b741-d0f2e910e1ab)
+
+
+
 ### Affiliate Codes
 
 #### affiliate.html
