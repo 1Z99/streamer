@@ -29,16 +29,25 @@ This is the landing page of the website. It includes an introduction, social med
 #### affiliate.html
 This page displays affiliate codes with custom backgrounds and descriptions.
 
+![codes](https://github.com/1Z99/streamer/assets/85915502/9629110c-3f48-45ff-97f5-7e682cf74122)
+
+
 ### Store
 
 #### store.html
 This page showcases items available for purchase using points, with each item having an image, description, and a "Buy Now" button.
+
+![Store](https://github.com/1Z99/streamer/assets/85915502/9272bf6f-d451-43dc-89c4-e11c3eb32a5e)
+
 
 
 ### Contact
 
 #### contact.html
 This page includes a simple contact email link for users to get in touch with the streamer.
+
+![contact](https://github.com/1Z99/streamer/assets/85915502/b69d49fc-6951-4a0a-8807-9d8b8a770be6)
+
 
 ## Styles
 
