@@ -29,7 +29,8 @@ This is the landing page of the website. It includes an introduction, social med
 #### affiliate.html
 This page displays affiliate codes with custom backgrounds and descriptions.
 
-![codes](https://github.com/1Z99/streamer/assets/85915502/9629110c-3f48-45ff-97f5-7e682cf74122)
+
+![code](https://github.com/1Z99/streamer/assets/85915502/5ec09b16-acd2-44da-bb2b-05fa3a90842d)
 
 
 ### Store
